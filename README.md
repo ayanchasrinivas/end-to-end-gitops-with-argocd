@@ -1,6 +1,6 @@
 # End-to-End Enterprise GitOps Platform with Argo CD
 
-#
+
 <img width="750" height="150" alt="images" src="https://github.com/user-attachments/assets/144a971a-81ab-4450-8f52-69edcc233073" />
 #
 
