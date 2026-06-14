@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: be-deploy
+  namespace: product1-ns
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: be
+  template:
+    metadata:
+      labels:
+        app: be
+    spec:
+      containers:
+        - name: be-container
+          image: psychovivek/argo-backend-app1:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5000

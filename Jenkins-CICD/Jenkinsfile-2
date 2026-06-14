@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage ("Build") {
+            steps {
+                git branch: 'main', credentialsId: 'github_pat', poll: false, url: 'https://github.com/ayanchasrinivas/app1-backend-config.git'
+            }
+        }
+    }
+}
