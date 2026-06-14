@@ -1,7 +1,8 @@
 # End-to-End Enterprise GitOps Platform with Argo CD
 
-<img width="650" height="130" alt="images" src="https://github.com/user-attachments/assets/144a971a-81ab-4450-8f52-69edcc233073" />
-
+#
+<img width="750" height="150" alt="images" src="https://github.com/user-attachments/assets/144a971a-81ab-4450-8f52-69edcc233073" />
+#
 
 A Production-Grade GitOps Implementation that demonstrates how Enterprise Organizations deploy, manage, and operate Kubernetes applications using Argo CD and GitOps principles. This project showcases a complete Continuous Delivery workflow where Git serves as the Single Source of Truth for Kubernetes resources, enabling automated deployments, drift detection, self-healing, and operational consistency across environments.
 
